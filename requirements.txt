@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+streamlit
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+sentence-transformers
+python-dotenv
+pandas
+numpy
+tqdm
+openai
