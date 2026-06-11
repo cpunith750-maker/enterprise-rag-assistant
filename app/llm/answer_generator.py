@@ -14,9 +14,11 @@ from app.retrieval.retriever import (
 from app.embeddings.embedder import load_embedding_model
 
 
-load_dotenv(override=True)
+load_dotenv()
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+groq_api_key = os.getenv("GROQ_API_KEY")
+
+client = Groq(api_key=groq_api_key)
 
 
 def build_context(retrieved_chunks):
