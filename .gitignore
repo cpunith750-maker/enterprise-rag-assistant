@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data files
+data/raw/
+data/sample/
+*.zip
+
+# Validation outputs
+validation/validation_results.json
+validation/validation_results.csv
